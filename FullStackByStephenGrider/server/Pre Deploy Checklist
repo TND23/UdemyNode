@@ -1,0 +1,4 @@
+1. Dynamic port binding (allow heroku to specify port)
+2. Specify Node env. (package.json)
+3. Specify initialization script (e.g. node index.js)
+4. Add .gitignore since heroku adds express dependencies 
