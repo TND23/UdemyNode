@@ -3,6 +3,10 @@ const express = require("express");
 // listen to incoming requests
 // then route those requests to different handlers
 
+const passport = require("passport");
+
+const GoogleStrategy = require("passport-google-oauth20").Strategy;
+
 const app = express();
 
 // TODO: learn about arrow function
@@ -33,3 +37,10 @@ const PORT = process.env.PORT || 5000;
 // express tells node it wants to listen to incoming traffic on port 5000
 
 app.listen(PORT);
+
+// passport libraries:
+
+/*
+
+
+*/
